@@ -8,16 +8,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Servicio {
- private Integer id;
- private String nombre, descripcion;
- 
- 
-public Servicio(String nombre, String descripcion) {
-	
-	this.nombre = nombre;
-	this.descripcion = descripcion;
-}
- 
- 
- 
+	private Integer id;
+	private String nombre, descripcion;
+
+	public Servicio(String nombre, String descripcion) {
+
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+	}
+
 }

@@ -9,13 +9,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Cliente {
 	private Integer id;
-	private String nombre,email,clave;
-	
+	private String nombre, email, clave;
+
 	public Cliente(String nombre, String email, String clave) {
-		
-		this.nombre=nombre;
-		this.email=email;
-		this.clave= clave;
-		}
-	
+
+		this.nombre = nombre;
+		this.email = email;
+		this.clave = clave;
+	}
+
 }
